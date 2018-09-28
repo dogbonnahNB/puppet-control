@@ -9,6 +9,6 @@ mod "puppetlabs/concat",      '2.1.0'
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 
-mod 'puppet-ssh'
-  :git	  => 'https://github.com/dogbonnahNB/puppet-ssh.git'
+mod 'puppet-ssh',
+  :git	  => 'https://github.com/dogbonnahNB/puppet-ssh.git',
   :branch => 'master'
