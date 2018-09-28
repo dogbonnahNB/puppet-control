@@ -12,3 +12,7 @@ mod "puppetlabs/concat",      '2.1.0'
 mod 'puppet-ssh',
   :git	  => 'https://github.com/dogbonnahNB/puppet-ssh.git',
   :branch => 'master'
+
+mod 'puppet-apache',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-apache.git',
+  :branch => 'master'
